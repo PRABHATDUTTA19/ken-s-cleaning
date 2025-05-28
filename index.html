@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken's Cleaning Service</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span>📞 Call: +01 123455678990</span>
+            <span>✉️ Email: demo@gmail.com</span>
+        </div>
+        <nav>
+            <div class="logo">KEN'S CLEANING</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="hero">
+        <div class="hero-text">
+            <h1>Professional Cleaning Services</h1>
+            <p>Reliable and affordable cleaning solutions for your home or office.</p>
+            <button onclick="scrollToContact()">Contact Us</button>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '68347d1fd824313dd26e2ede' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production',
+                voice: {
+                  url: "https://runtime-api.voiceflow.com"
+                }
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+
+</body>
+</html>
